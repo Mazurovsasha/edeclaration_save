@@ -49,4 +49,4 @@ for archive_file in os.listdir(archive_dir):
         if file_creation_time < expiration_time:
             os.remove(archive_file_path)
 
-print("Готово!")
+print("Все Готово!")
